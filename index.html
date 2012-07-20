@@ -51,9 +51,36 @@
           <p>Settings are project specific and they can be easily found under your project properties.</p>
           <img height="300px" class="imagedropshadow" src="https://s3.amazonaws.com/getlocalization.sync/tutorial/eclipse1.png" />
 
-          <p>In properties, you can find the Get Localization Sync plug-in.</p>
+          <p>From properties, you can find the Get Localization Sync plug-in.</p>
           
           <img class="imagedropshadow" height="300px" src="http://getlocalization.files.wordpress.com/2012/07/eclipse-plugin-v1-1-1009.jpg" />
+
+          <p>
+          <strong>Username</strong> - Your Get Localization username
+          <strong>Password</strong> - Your Get Localization password
+          <strong>Project</strong> - Your Get Localization project name (same that appears in project URL)
+          <strong>Default Platform</strong> - Platform you are developing on. It defines the file format of your i18n files. You can also set the format for individual files from their properties if you happen to have multiple different file formats in your project.
+          </p>
+        <p>
+        <strong>Pull file filter</strong> allows you to filter which files you wish to pull to your Eclipse project. For example just pull all the strings.xml's you can use filter:
+        <pre><code>.*?strings.xml</code></pre>
+        <string>Replace</string> rules can be used to alter filenames when they're pulled to Eclipse project. You can for example create rules that change the language codes or installation path. E.g. if you wish to change language code from pt-BR to pt-rBR, just create following replace rule:
+        <pre>pt-BR/ -&gt; pt-rBR/</pre>
+        Replace rules can be imported and exported so if you manage to do proper rules for example Android or some other platform, please do share them with us. We're happy to add them to our library.
+        </p>
+          
+          <h2>Sending Files To Translation</h2>
+          <p>Right-click the file you wish to send to Get Localization and select "Get Localization Sync -&gt; Send to translation". Note that these always should be master files (files that translators translate from, typically in English), never send files that are in different language than your other master files.</p>
+          <img src="https://s3.amazonaws.com/getlocalization.sync/tutorial/eclipse3.png" alt="" class="imagedropshadow" height="300px" />
+          <h2>Sync Translated Files Back To Project</h2>
+          <p>After translation, you can easily sync the files back to any folder you wish.</p>
+          
+          <img src="https://s3.amazonaws.com/getlocalization.sync/tutorial/eclipse4.png" alt="" class="imagedropshadow" height="300px" />
+          <h2>Android Projects</h2>
+          <p>Get Localization Sync for Eclipse handles Android projects specially when translations are synced back to "res" folder. They are automatically placed into appropriate values folders so they work in your application without any modification.</p>
+          
+          <img src="https://s3.amazonaws.com/getlocalization.sync/tutorial/eclipse5.png" alt="" class="imagedropshadow" height="300px" />
+
 
 <h3>Support or Contact</h3>
 
