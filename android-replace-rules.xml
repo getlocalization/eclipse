@@ -1,0 +1,30 @@
+<items>
+	<replaceItem>
+		<from>pt-BR</from>
+		<to>pt</to>
+	</replaceItem>
+	<replaceItem>
+		<from>zh-TW</from>
+		<to>zh</to>
+	</replaceItem>
+	<replaceItem>
+		<from>cs-CZ</from>
+		<to>cs</to>
+	</replaceItem>
+	<replaceItem>
+		<from>hu-HU</from>
+		<to>hu</to>
+	</replaceItem>
+	<replaceItem>
+		<from>ja-JP</from>
+		<to>ja</to>
+	</replaceItem>
+	<replaceItem>
+		<from>no/</from>
+		<to>nb/</to>
+	</replaceItem>
+	<replaceItem>
+		<from>pl-PL</from>
+		<to>pl</to>
+	</replaceItem>
+</items>
